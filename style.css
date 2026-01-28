@@ -9,6 +9,8 @@ body {
 
 .sidebar {
     grid-row: 1 / 3;
+    background-color: rgb(23, 128, 174);
+    color: white;
 }
 
 .header {
@@ -38,10 +40,15 @@ body {
     
 }
 
-.project-cards {
+.project-cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    
+}
+
+.project-cards .card{
+    border-left: 5px solid orange;
 }
 
 .card {
@@ -49,6 +56,7 @@ body {
     padding : 25px;
     margin: 20px ;
     border-radius: 8px;
+    margin-top: 5px;
 }
 
 .project-cards .card h4 {
@@ -93,5 +101,11 @@ body {
     margin-top: 1px;
 }
 
-/* Temporary colors for visualization */
-.sidebar { background: rgb(43, 129, 158); }
+.projects h3,
+.announcements h3,
+.trending h3 {
+    margin-left: 20px;
+    margin-bottom: auto;
+    margin-top: 25px;
+}  
+
