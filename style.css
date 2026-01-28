@@ -42,7 +42,20 @@ body {
 }
 
 .header {
-    display: grid;
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.top-row, .bottom-row {
+    align-items: center;
+}
+
+.search-bar input{
+    width: 80%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background: #dededeee;
 }
 
 .top-row{
@@ -52,6 +65,15 @@ body {
 .bottom-row{
     display: grid;
     grid-template-columns: 1fr auto;
+}
+
+.buttons button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(23, 128, 174);
+    color: white;
 }
 
 .main-content {
