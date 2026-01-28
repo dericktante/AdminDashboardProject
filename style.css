@@ -29,3 +29,16 @@ body {
     grid-template-columns: 2fr 1fr;
     gap: 16px;
 }
+
+.right-side {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 16px;
+}
+
+/* Temporary colors for visualization */
+.sidebar { background: rgb(43, 129, 158); }
+.main-content { background: lightblue; }
+.projects { background: lightgray; }
+.announcements { background: lightyellow; }
+.trending { background: lightpink}
