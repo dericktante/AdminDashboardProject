@@ -31,6 +31,7 @@ body {
     grid-template-columns: 2fr 1fr;
     gap: 16px;
     background-color: rgb(212, 212, 212);
+    padding : 20px;
 }
 
 .right-side {
@@ -54,9 +55,7 @@ body {
 .card {
     background: white;
     padding : 25px;
-    margin: 20px ;
     border-radius: 8px;
-    margin-top: 5px;
 }
 
 .project-cards .card h4 {
@@ -101,11 +100,5 @@ body {
     margin-top: 1px;
 }
 
-.projects h3,
-.announcements h3,
-.trending h3 {
-    margin-left: 20px;
-    margin-bottom: auto;
-    margin-top: 25px;
-}  
+
 
