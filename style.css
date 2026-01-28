@@ -38,7 +38,7 @@ body {
 
 /* Temporary colors for visualization */
 .sidebar { background: rgb(43, 129, 158); }
-.main-content { background: lightblue; }
-.projects { background: lightgray; }
-.announcements { background: lightyellow; }
-.trending { background: lightpink}
+.main-content { background: rgb(216, 215, 215) }
+.project-cards { background: white ; }
+.announcement-card { background: white; }
+.trending-card { background: white}
