@@ -21,7 +21,7 @@ body {
 }
 .bottom-row{
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr auto;
 }
 
 .main-content {
@@ -36,9 +36,22 @@ body {
     gap: 16px;
 }
 
+.project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding : 25px;
+    margin: 20px ;
+    border-radius: 8px;
+}
+
+
 /* Temporary colors for visualization */
 .sidebar { background: rgb(43, 129, 158); }
 .main-content { background: rgb(216, 215, 215) }
-.project-cards { background: white ; }
 .announcement-card { background: white; }
 .trending-card { background: white}
