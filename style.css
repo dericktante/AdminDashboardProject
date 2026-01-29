@@ -38,7 +38,6 @@ body {
     width: 20px;
     height: 20px;
     filter: invert(100%);
-    
 }
 
 .sidebar a{
@@ -60,12 +59,34 @@ body {
     align-items: center;
 }
 
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar img {
+    width: 20px;
+    height: 20px;
+}
+
 .search-bar input{
     width: 80%;
     padding: 8px 12px;
     border-radius: 20px;
     border: none;
     background: #dededeee;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-info img {
+    width: 20px;
+  
 }
 
 .top-row{
@@ -115,7 +136,20 @@ body {
 .card {
     background: white;
     padding : 25px;
-    border-radius: 8px;;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-icons{
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.card-icons img{
+    width: 18px;
 }
 
 .project-cards .card h4 {
@@ -160,5 +194,10 @@ body {
     margin-top: 1px;
 }
 
+.projects h3,
+.announcements h3,
+.trending h3 {
+    margin: 0 0 15px 0;
+}
 
 
