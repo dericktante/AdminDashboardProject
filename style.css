@@ -29,6 +29,16 @@ body {
 .sidebar li {
     margin-bottom: 15px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sidebar img {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+    
 }
 
 .sidebar a{
